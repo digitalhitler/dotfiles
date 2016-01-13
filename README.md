@@ -12,8 +12,11 @@
 
 ## Состав
 * NONONO!
-* `osx.sh` - превращение OS X в рабочую лошадку
+* `install.sh` - точка входа
 * `ubuntu-server.sh` - превращение Ubuntu 14.04 в рабочий development-сервер
+
+## Changelog
+Хроника изменений находится в `CHANGELOG.md`
 
 
 ## Todo
