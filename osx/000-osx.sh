@@ -2,8 +2,8 @@
 #####
 # OS X configuration script entry point here.
 #
-# (tested on El Capitan 10.11.2)
-# (first appears since Lion 10.7.5)
+# (currently tested on El Capitan 10.11.2)
+# (first appears in Lion 10.7.5)
 #
 # (c) Sergey S Petrenko 2012-2016
 #
@@ -20,7 +20,7 @@
 set -u
 # And let script immediately killed itself on any error
 set -e
-bash osx/000-preinstall.sh
-bash osx/001-root-changes.sh
+bash osx/001-preinstall.sh
+bash osx/002-root-changes.sh
 npm install;
-cd osx && node 002-setup.js
+cd osx && node 003-setup.js

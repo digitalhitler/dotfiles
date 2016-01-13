@@ -34,9 +34,15 @@ brew install node;
 echo "   Testing Node & NPM";
 NODEVERSION=`node -v`;
 NPMVERSION=`npm -v`;
+
 echo "   We got Node.js $NODEVERSION and NPM $NPMVERSION";
 
-## NPM
+
+## NPM config
+echo " * Configuring NPM";
+npm adduser --registry http://digitalhitler.ru:4873/ --scope=@vkcm --always-auth=false
+
+## NPM deps
 echo " * Installing NPM this-app-dependencies"
 npm install;
 
@@ -45,6 +51,7 @@ npm install;
 # ## Git
 # echo " * Installing latest git because of OS X bundled with old one";
 # git config --global user.name "Sergey Petrenko";
+# git config --global push.default simple
 #
 # ## Fish
 # echo " * Installing fish - interactive shell"

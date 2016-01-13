@@ -1,0 +1,29 @@
+{
+  "name": "@vkcm/dotfiles",
+  "version": "0.0.1",
+  "description": "DH Dotfiles configurator",
+  "main": "install.sh",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalhitler/dotfiles.git"
+  },
+  "keywords": [
+    "dotfiles",
+    "digitalhitler",
+    "getrix",
+    "installer",
+    "helper",
+    "tool"
+  ],
+  "author": "Sergey Petrenko <spetrenko@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalhitler/dotfiles/issues"
+  },
+  "homepage": "https://github.com/digitalhitler/dotfiles#readme"
+}

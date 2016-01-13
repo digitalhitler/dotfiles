@@ -21,6 +21,6 @@
 
 ## Todo
 * Crontab
-* Oh-my-fish
+* Oh-my-fish and `~/.omf` directory
 * All commented from `001-preinstall`
 * NPM global dependencies
